@@ -5,7 +5,7 @@ cantidad_intentos = 0
 cant_max_int = 8
 adivinado = False
 
-print("¡Bienvenido al juego de aviniar el numero secreto!")
+print("¡Bienvenido al juego de adivinar el numero secreto!")
 
 while not adivinado and cantidad_intentos < cant_max_int:
     entrada = input("Introduce un número del 1 al 99: ")
